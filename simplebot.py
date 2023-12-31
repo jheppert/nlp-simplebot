@@ -19,7 +19,6 @@ def get_bot_response(user_input):
         stop=None,
         temperature=0.5,
     )
-
     bot_response = response.choices[0].text.strip()
     return bot_response
 
